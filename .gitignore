@@ -1,0 +1,11 @@
+.DS_Store
+.project
+.class
+dist
+node_modules
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
