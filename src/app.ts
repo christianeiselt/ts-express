@@ -1,5 +1,4 @@
 import "dotenv/config";
-import express, { Application, Request, Response, NextFunction } from "express";
 import createServer from "server";
 
 const startServer = () => {
@@ -7,6 +6,7 @@ const startServer = () => {
   const port: number = parseInt(<string>process.env.PORT) || 4000;
 
   app.listen(port, () => {
+    // eslint-disable-next-line no-console
     console.log(`server running on port ${port}`);
   });
 };
